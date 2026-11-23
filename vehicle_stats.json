@@ -1,0 +1,167 @@
+{
+  "data": [
+    {
+      "id": "281474977075801",
+      "name": "Truck 101 - Raleigh Depot",
+      "gps": {
+        "time": "2026-11-23T18:42:10Z",
+        "latitude": 35.7796,
+        "longitude": -78.6382,
+        "headingDegrees": 90,
+        "speedMilesPerHour": 0,
+        "reverseGeo": { "formattedLocation": "Raleigh, NC" }
+      },
+      "engineStates": { "time": "2026-11-23T18:20:05Z", "value": "Idle" },
+      "fuelPercents": { "time": "2026-11-23T18:42:10Z", "value": 64 },
+      "faultCodes": {
+        "canBusType": "J1939",
+        "time": "2026-11-23T18:15:00Z",
+        "j1939": {
+          "checkEngineLights": {
+            "emissionsIsOn": false,
+            "protectIsOn": false,
+            "stopIsOn": false,
+            "warningIsOn": true
+          },
+          "diagnosticTroubleCodes": [
+            {
+              "spnId": 3216,
+              "spnDescription": "Aftertreatment 1 Intake NOx",
+              "fmiId": 2,
+              "fmiDescription": "Data erratic, intermittent or incorrect",
+              "occurrenceCount": 4,
+              "milStatus": 1,
+              "txId": 0,
+              "sourceAddressName": "Engine #1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "281474977075802",
+      "name": "Truck 102 - I-40 Westbound",
+      "gps": {
+        "time": "2026-11-23T18:42:30Z",
+        "latitude": 35.9132,
+        "longitude": -79.0558,
+        "headingDegrees": 270,
+        "speedMilesPerHour": 63,
+        "reverseGeo": { "formattedLocation": "I-40, Chapel Hill, NC" }
+      },
+      "engineStates": { "time": "2026-11-23T16:02:44Z", "value": "On" },
+      "fuelPercents": { "time": "2026-11-23T18:42:30Z", "value": 15 },
+      "faultCodes": {
+        "canBusType": "J1939",
+        "time": "2026-11-23T17:50:00Z",
+        "j1939": {
+          "checkEngineLights": {
+            "emissionsIsOn": false,
+            "protectIsOn": false,
+            "stopIsOn": false,
+            "warningIsOn": false
+          },
+          "diagnosticTroubleCodes": []
+        }
+      }
+    },
+    {
+      "id": "281474977075803",
+      "name": "Van 201 - Durham Service",
+      "gps": {
+        "time": "2026-11-23T18:41:55Z",
+        "latitude": 35.994,
+        "longitude": -78.8986,
+        "headingDegrees": 180,
+        "speedMilesPerHour": 28,
+        "reverseGeo": { "formattedLocation": "Durham, NC" }
+      },
+      "engineStates": { "time": "2026-11-23T17:30:12Z", "value": "On" },
+      "fuelPercents": { "time": "2026-11-23T18:41:55Z", "value": 48 },
+      "faultCodes": {
+        "canBusType": "OBD-II",
+        "time": "2026-11-23T17:31:00Z",
+        "obdii": {
+          "checkEngineLightIsOn": true,
+          "diagnosticTroubleCodes": [
+            {
+              "confirmedDtcs": [
+                { "dtcId": 768, "dtcShortCode": "P0300", "dtcDescription": "Random/Multiple Cylinder Misfire Detected" }
+              ],
+              "pendingDtcs": [
+                { "dtcId": 369, "dtcShortCode": "P0171", "dtcDescription": "System Too Lean (Bank 1)" }
+              ],
+              "permanentDtcs": [],
+              "txId": 0,
+              "ignitionType": "spark",
+              "milStatus": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "281474977075804",
+      "name": "Van 202 - Cary Field Tech",
+      "gps": {
+        "time": "2026-11-23T18:40:02Z",
+        "latitude": 35.7915,
+        "longitude": -78.7811,
+        "headingDegrees": 0,
+        "speedMilesPerHour": 0,
+        "reverseGeo": { "formattedLocation": "Cary, NC" }
+      },
+      "engineStates": { "time": "2026-11-23T15:10:40Z", "value": "Off" },
+      "fuelPercents": { "time": "2026-11-23T15:10:40Z", "value": 81 },
+      "faultCodes": {
+        "canBusType": "OBD-II",
+        "time": "2026-11-23T15:10:00Z",
+        "obdii": {
+          "checkEngineLightIsOn": false,
+          "diagnosticTroubleCodes": [
+            { "confirmedDtcs": [], "pendingDtcs": [], "permanentDtcs": [], "txId": 0, "ignitionType": "spark", "milStatus": false }
+          ]
+        }
+      }
+    },
+    {
+      "id": "281474977075805",
+      "name": "Truck 103 - Greensboro Hub",
+      "gps": {
+        "time": "2026-11-23T18:42:45Z",
+        "latitude": 36.0726,
+        "longitude": -79.792,
+        "headingDegrees": 45,
+        "speedMilesPerHour": 0,
+        "reverseGeo": { "formattedLocation": "Greensboro, NC" }
+      },
+      "engineStates": { "time": "2026-11-23T17:55:31Z", "value": "Idle" },
+      "fuelPercents": { "time": "2026-11-23T18:42:45Z", "value": 9 },
+      "faultCodes": {
+        "canBusType": "J1939",
+        "time": "2026-11-23T18:01:00Z",
+        "j1939": {
+          "checkEngineLights": {
+            "emissionsIsOn": false,
+            "protectIsOn": false,
+            "stopIsOn": true,
+            "warningIsOn": true
+          },
+          "diagnosticTroubleCodes": [
+            {
+              "spnId": 100,
+              "spnDescription": "Engine Oil Pressure",
+              "fmiId": 1,
+              "fmiDescription": "Data valid but below normal operational range - most severe level",
+              "occurrenceCount": 2,
+              "milStatus": 1,
+              "txId": 0,
+              "sourceAddressName": "Engine #1"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "pagination": { "endCursor": "", "hasNextPage": false }
+}
