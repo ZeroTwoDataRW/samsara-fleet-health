@@ -78,6 +78,10 @@ mock_data/vehicle_stats.json # simulated 5-vehicle NC fleet (J1939 trucks + OBD-
 tests/test_fleet_health.py   # unit tests for parsing and alert rules
 ```
 
+## Final Product
+<img width="2559" height="897" alt="image" src="https://github.com/user-attachments/assets/3ce8b86e-51ac-49ff-b4d9-96fe4f9ad3ff" />
+
+
 ## Next steps
 
 - Use `/fleet/vehicles/stats/feed` to stream changes in near real time instead of taking snapshots.
